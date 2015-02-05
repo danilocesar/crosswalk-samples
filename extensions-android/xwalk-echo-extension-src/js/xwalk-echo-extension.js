@@ -61,7 +61,7 @@ exports.echoAsync = function (message) {
 };
 
 // returns a Response object
-exports.echo = function (message) {
+exports.findPrimeJava = function (message) {
   counter += 1;
   var messageJson = messageToJson(counter, message);
 

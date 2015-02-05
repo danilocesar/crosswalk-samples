@@ -84,6 +84,8 @@
       </fileset>
     </unjar>
 
+    <copy file="libs/armeabi-v7a/libFindPrime.so" todir="${build}/lib/armeabi-v7a/" />
+
     <jar destfile="${dist}/xwalk-echo-extension.jar">
       <fileset dir="${build}" excludes="META-INF/**" />
     </jar>
